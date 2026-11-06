@@ -53,6 +53,7 @@ static NSString *const kSuiteName = @"com.shajon.fbplus";
         FBPKeyNotifyUpdates    : @YES,
         FBPKeyAutoClearCache   : @YES,
         FBPKeyIntroduced       : @NO,
+        FBPKeyLanguage         : @"vi",
     };
 }
 

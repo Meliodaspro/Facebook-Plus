@@ -135,3 +135,22 @@
 "fonts.delete.message" = "“%@” will be removed.";
 "fonts.delete.confirm" = "Delete";
 "fonts.deleted" = "Font removed";
+
+// Additional interface strings.
+"welcome.hide" = "Don't show this popup again";
+"welcome.start" = "Get Started";
+"welcome.private.title" = "Slip in unseen";
+"welcome.private.desc" = "Open a story and no read receipt leaves your device — you send it only if and when you decide to.";
+"welcome.confirm.title" = "No misfires";
+"welcome.confirm.desc" = "A short confirm sits between a careless tap and a like you never meant to give.";
+"welcome.settings.title" = "One tidy panel";
+"welcome.settings.desc" = "Every switch lives in a single sheet, and each one stays off until you flip it yourself.";
+"welcome.calm.title" = "A calmer app";
+"welcome.calm.desc" = "Trim ads and suggestions, switch on a true-black night look, and repaint the icon — small touches, out of your way.";
+"story.error" = "Something went wrong";
+"story.seen" = "Marked as seen";
+"story.markSeen" = "Mark as seen";
+"story.markSeen.message" = "Send the read receipt for this story now?";
+"story.markSeen.detail" = "Send the read receipt for this story now.";
+"confirm.like.named" = "Send a “%@” reaction?";
+"ads.blocked" = "Blocked by Facebook Plus";

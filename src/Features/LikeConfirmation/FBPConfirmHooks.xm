@@ -240,7 +240,7 @@ static BOOL gConfirmedPassthrough = NO;
     // exact reaction, so the message is tailored to it and stays correct across
     // reaction types and languages without shipping a copy of each.
     if (kind == FBPConfirmKindLike && view.accessibilityLabel.length) {
-        message = [NSString stringWithFormat:@"Send a “%@” reaction?",
+        message = [NSString stringWithFormat:FBPL(@"confirm.like.named"),
                    view.accessibilityLabel];
     }
 

@@ -227,7 +227,7 @@ static const CGFloat kButtonHeight  = 54.0;
     [bar addSubview:toggleCard];
 
     UILabel *dontShowLabel = [[UILabel alloc] init];
-    dontShowLabel.text = @"Don't show this popup again";
+    dontShowLabel.text = FBPL(@"welcome.hide");
     dontShowLabel.font = [UIFont systemFontOfSize:15 weight:UIFontWeightMedium];
     dontShowLabel.textColor = UIColor.whiteColor;
     dontShowLabel.translatesAutoresizingMaskIntoConstraints = NO;
@@ -257,7 +257,7 @@ static const CGFloat kButtonHeight  = 54.0;
 
     // Primary button.
     UIButton *continueButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    [continueButton setTitle:@"Get Started" forState:UIControlStateNormal];
+    [continueButton setTitle:FBPL(@"welcome.start") forState:UIControlStateNormal];
     continueButton.titleLabel.font = [UIFont systemFontOfSize:18 weight:UIFontWeightSemibold];
     [continueButton setTitleColor:[UIColor colorWithRed:0.04 green:0.08 blue:0.14 alpha:1.0]
                          forState:UIControlStateNormal];
@@ -384,17 +384,17 @@ static const CGFloat kButtonHeight  = 54.0;
 - (NSArray<NSDictionary *> *)pages {
     return @[
         @{@"image" : @"incognito",
-          @"title" : @"Slip in unseen",
-          @"desc"  : @"Open a story and no read receipt leaves your device — you send it only if and when you decide to."},
+          @"title" : FBPL(@"welcome.private.title"),
+          @"desc"  : FBPL(@"welcome.private.desc")},
         @{@"image" : @"alert",
-          @"title" : @"No misfires",
-          @"desc"  : @"A short confirm sits between a careless tap and a like you never meant to give."},
+          @"title" : FBPL(@"welcome.confirm.title"),
+          @"desc"  : FBPL(@"welcome.confirm.desc")},
         @{@"image" : @"setting",
-          @"title" : @"One tidy panel",
-          @"desc"  : @"Every switch lives in a single sheet, and each one stays off until you flip it yourself."},
+          @"title" : FBPL(@"welcome.settings.title"),
+          @"desc"  : FBPL(@"welcome.settings.desc")},
         @{@"image" : @"magic",
-          @"title" : @"A calmer app",
-          @"desc"  : @"Trim ads and suggestions, switch on a true-black night look, and repaint the icon — small touches, out of your way."},
+          @"title" : FBPL(@"welcome.calm.title"),
+          @"desc"  : FBPL(@"welcome.calm.desc")},
     ];
 }
 

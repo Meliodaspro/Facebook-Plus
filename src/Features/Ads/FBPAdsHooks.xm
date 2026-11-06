@@ -16,6 +16,7 @@
 
 #import "FBPlus.h"
 #import "FBPPrefs.h"
+#import "FBPResources.h"
 #import "FBPHeaders.h"
 
 #import <objc/runtime.h>
@@ -283,7 +284,7 @@ static NSData *FBPMarketplaceFilterResponse(NSData *data, NSString *name) {
     NSError *error = [NSError errorWithDomain:NSURLErrorDomain
                                          code:NSURLErrorNotConnectedToInternet
                                      userInfo:@{NSLocalizedDescriptionKey:
-                                                    @"Blocked by Facebook Plus"}];
+                                                    FBPL(@"ads.blocked")}];
     // Complete asynchronously so RCTNetworkTask has stored the token first.
     dispatch_async(dispatch_get_main_queue(), ^{
         [delegate URLRequest:token didCompleteWithError:error];

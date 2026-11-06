@@ -1,4 +1,4 @@
-"nav.settings" = "Tùy chọn tinh chỉnh";
+"nav.settings" = "Cài đặt Facebook Plus";
 
 "cat.ads.title" = "Quảng cáo & Bảng tin";
 "cat.ads.summary" = "Xóa quảng cáo, đề xuất và nội dung rối";
@@ -36,8 +36,8 @@
 "row.feedlike.desc" = "Hỏi trước khi gửi lượt thích — bài viết bảng tin và Reels.";
 "row.downloadreels.title" = "Tải Reels";
 "row.downloadreels.desc" = "Hiện nút tải xuống khi xem Reels.";
-"row.downloadstories.title" = "Tải Story";
-"row.downloadstories.desc" = "Hiện nút tải xuống khi xem Story.";
+"row.downloadstories.title" = "Tải tin";
+"row.downloadstories.desc" = "Hiện nút tải xuống khi xem tin.";
 "row.anonstories.title" = "Xem tin ẩn danh";
 "row.anonstories.desc" = "Xem tin mà không gửi xác nhận đã đọc.";
 "row.noautonext.title" = "Tắt tự động chuyển tiếp";
@@ -70,15 +70,15 @@
 "common.confirm" = "Xác nhận";
 "download.appName" = "Facebook Plus";
 "download.error.unknown" = "Lỗi không xác định";
-"download.story.saved" = "Đã lưu vào Photos";
-"download.story.a11y" = "Tải Story";
+"download.story.saved" = "Đã lưu vào Ảnh";
+"download.story.a11y" = "Tải tin";
 "download.reel.a11y" = "Tải Reel";
 "download.reel.progress" = "Đang tải Reel…";
 "download.reel.saving" = "Đã tải xong, đang lưu…";
-"download.reel.saved" = "Đã lưu Reel vào Photos";
+"download.reel.saved" = "Đã lưu Reel vào Ảnh";
 "download.reel.failed" = "Tải Reel thất bại.";
 "download.reel.failedDetail" = "Tải Reel thất bại.\n%@";
-"download.reel.saveFailed" = "Không lưu được vào Photos.\n%@";
+"download.reel.saveFailed" = "Không lưu được vào Ảnh.\n%@";
 "download.reel.inProgress" = "Một Reel đang được tải.";
 "download.reel.httpError" = "Facebook CDN trả HTTP %ld.";
 "download.reel.tmpFailed" = "Không tạo được file video tạm.";
@@ -135,3 +135,22 @@
 "fonts.delete.message" = "«%@» sẽ bị xóa.";
 "fonts.delete.confirm" = "Xóa";
 "fonts.deleted" = "Đã xóa phông chữ";
+
+// Additional interface strings.
+"welcome.hide" = "Không hiển thị lại thông báo này";
+"welcome.start" = "Bắt đầu";
+"welcome.private.title" = "Xem tin ẩn danh";
+"welcome.private.desc" = "Xem tin mà không gửi thông báo đã xem. Bạn có thể chủ động đánh dấu đã xem khi muốn.";
+"welcome.confirm.title" = "Hạn chế thao tác nhầm";
+"welcome.confirm.desc" = "Hiển thị xác nhận trước khi gửi lượt thích để tránh chạm nhầm.";
+"welcome.settings.title" = "Cài đặt tập trung";
+"welcome.settings.desc" = "Quản lý các tính năng trong một bảng cài đặt. Bạn có thể bật hoặc tắt từng tùy chọn.";
+"welcome.calm.title" = "Trải nghiệm gọn gàng hơn";
+"welcome.calm.desc" = "Ẩn quảng cáo và đề xuất, bật chế độ tối OLED và thay đổi biểu tượng ứng dụng.";
+"story.error" = "Đã xảy ra lỗi";
+"story.seen" = "Đã đánh dấu là đã xem";
+"story.markSeen" = "Đánh dấu đã xem";
+"story.markSeen.message" = "Gửi xác nhận đã xem tin này ngay bây giờ?";
+"story.markSeen.detail" = "Gửi xác nhận đã xem tin này.";
+"confirm.like.named" = "Gửi cảm xúc “%@”?";
+"ads.blocked" = "Đã chặn bởi Facebook Plus";
